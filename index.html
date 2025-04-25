@@ -4,32 +4,62 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penguin Fashion</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./Assets/icons/penguin.png" type="image/x-icon">
     <!-- Tailwind CSS -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <style>
-        .bebas {
+        .bebas-font {
             font-family: "Bebas Neue", sans-serif;
             font-weight: 400;
             font-style: normal;
         }
 
-        .roboto {
+        .roboto-font {
             font-family: "Roboto", sans-serif;
             font-optical-sizing: auto;
             font-weight: 400;
             font-style: normal;
         }
+
+        .montserrat-font {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
     </style>
 </head>
 
-<body>
-    <header></header>
+<body class="max-w-[1440px] mx-auto box-border">
+    <header class="bg-[#FFFBF0]">
+
+        <nav class="flex justify-between items-center px-4 md:px-12 lg:px-24 xl:px-36 pt-6 lg:pt-8 xl:pt-10  pb-14">
+            <div class="flex items-center gap-2 montserrat-font">
+                <img class="w-9 h-7 lg:w-14 lg:h-10" src="Assets/icons/penguin.png" alt="">
+                <h2 class="font-bold lg:text-2xl">
+                    <span class="text-[#A4BC46]">Penguin</span>
+                    <span class="text-[#363958]">Fashion</span>
+                </h2>
+            </div>
+            <div>
+                <img class="md:hidden" src="Assets/icons/menu.png" alt="">
+                <div class="hidden md:flex md:gap-10 lg:gap-14 text-[#3C3C3C] roboto-font">
+                    <a href="">Home</a>
+                    <a href="">Product</a>
+                    <a href="">About Us</a>
+                    <a href="">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+
+    </header>
     <main></main>
     <footer></footer>
 </body>
