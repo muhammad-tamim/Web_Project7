@@ -7,7 +7,7 @@ I think Tailwind saved me a lot of time and effort compared to writing raw CSS. 
 I followed a similar UI design in Figma, and I remember writing 300-400 lines of CSS code just to complete the project. So, I really enjoyed using Tailwind!
 # Live Site Link:
 
-https://muhammad-tamim.github.io/Web_Project7/
+https://muhammad-tamim.github.io/web_project7/
 
 # What I newly learned while building this project:
 * How to build fully responsive layouts with Tailwind classes
