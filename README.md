@@ -5,8 +5,11 @@ Penguin Fashion is a simple, responsive static clothing website built using HTML
 I made my previous six projects using raw CSS, and I really love how Tailwind works. I started by learning Tailwind from its documentation, and then built this project.
 I think Tailwind saved me a lot of time and effort compared to writing raw CSS. I finished this project with just 392 lines of code. In my previous projects, 
 I followed a similar UI design in Figma, and I remember writing 300-400 lines of CSS code just to complete the project. So, I really enjoyed using Tailwind!
-# Live Site Link:
 
+# Project Demo Video:
+https://github.com/user-attachments/assets/034eab3f-f1b4-4a75-a444-bf2947594cc2
+
+# Live Site Link:
 https://muhammad-tamim.github.io/web_project7/
 
 # What I newly learned while building this project:
